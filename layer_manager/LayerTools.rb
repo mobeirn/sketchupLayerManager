@@ -13,7 +13,7 @@ module Obeirn
       ent_layer = entity.layer
       layers << ent_layer
       }
-      #remove uplicate layers
+      #remove duplicate layers
       unique_layers = layers.uniq!
       #can return nil
       if unique_layers.nil?
